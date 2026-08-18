@@ -1,0 +1,114 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/workspaces/eco-energy-dao-ieee/contracts/CEToken.sol": {
+      "lastModificationDate": 1787068106625,
+      "contentHash": "d45f48fe1c374e261323fd27229f2b48",
+      "sourceName": "contracts/CEToken.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "CEToken"
+      ]
+    },
+    "/workspaces/eco-energy-dao-ieee/contracts/GovernorQV.sol": {
+      "lastModificationDate": 1787068134791,
+      "contentHash": "93edce16e28732f7ee1b744cb25515f8",
+      "sourceName": "contracts/GovernorQV.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "GovernorQV",
+        "ICEToken"
+      ]
+    },
+    "/workspaces/eco-energy-dao-ieee/contracts/TimelockGuardian.sol": {
+      "lastModificationDate": 1787068155760,
+      "contentHash": "1a7823628a3698e90df9db74ccef4d46",
+      "sourceName": "contracts/TimelockGuardian.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "TimelockGuardian"
+      ]
+    }
+  }
+}
