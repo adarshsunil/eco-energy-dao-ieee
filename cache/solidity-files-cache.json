@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/workspaces/eco-energy-dao-ieee/contracts/CEToken.sol": {
-      "lastModificationDate": 1787068106625,
-      "contentHash": "d45f48fe1c374e261323fd27229f2b48",
+      "lastModificationDate": 1787073125681,
+      "contentHash": "9e26521370abc6d16c58b4e4a8389309",
       "sourceName": "contracts/CEToken.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -38,8 +38,8 @@
       ]
     },
     "/workspaces/eco-energy-dao-ieee/contracts/GovernorQV.sol": {
-      "lastModificationDate": 1787068134791,
-      "contentHash": "93edce16e28732f7ee1b744cb25515f8",
+      "lastModificationDate": 1787073139590,
+      "contentHash": "e7cd79809efa844b53756c00f92897cb",
       "sourceName": "contracts/GovernorQV.sol",
       "solcConfig": {
         "version": "0.8.20",

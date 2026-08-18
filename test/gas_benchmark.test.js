@@ -31,8 +31,8 @@ describe("Eco Energy Hub DAO Gas Benchmarks", function () {
   });
 
   it("Benchmark 1: Identity Verification & Token Minting Gas", async function () {
-    // Verify identity
-    const txVerify = await ceToken.verifyIdentity(voter1.address);
+    // Verify identity with address and physical SDP ID string
+    const txVerify = await ceToken.verifyIdentity(voter1.address, "SDP-IE-12345");
     const receiptVerify = await txVerify.wait();
     console.log(`\n -> verifyIdentity() Gas Used: ${receiptVerify.gasUsed.toString()}`);
 
@@ -44,8 +44,8 @@ describe("Eco Energy Hub DAO Gas Benchmarks", function () {
   });
 
   it("Benchmark 2: Proposal Creation & Quadratic Voting Gas", async function () {
-    // Mint deposit to owner
-    await ceToken.verifyIdentity(owner.address);
+    // Verify identity & Mint deposit to owner
+    await ceToken.verifyIdentity(owner.address, "SDP-IE-00001");
     await ceToken.mint(owner.address, ethers.parseEther("100"));
 
     // Create Proposal
